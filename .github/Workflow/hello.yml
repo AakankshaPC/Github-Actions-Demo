@@ -1,0 +1,16 @@
+# Workflow name
+name: Hello
+# on what time the workflow should run
+on:
+  workflow_dispatch:
+
+# Jobs should come inside workflow
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    # steps should come inside jobs
+    steps:
+      name: Say hi to everyone
+      run: echo "Hey guys"
+  
