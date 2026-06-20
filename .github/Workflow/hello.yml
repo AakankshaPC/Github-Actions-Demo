@@ -11,6 +11,6 @@ jobs:
 
     # steps should come inside jobs
     steps:
-      name: Say hi to everyone
-      run: echo "Hey guys"
+      - name: Say hi to everyone
+        run: echo "Hey guys"
   
