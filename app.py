@@ -1,4 +1,6 @@
 # This is a practice file
+
+# checking auto linter
 from flask import Flask, render_template
 app = Flask(__name__)
 
